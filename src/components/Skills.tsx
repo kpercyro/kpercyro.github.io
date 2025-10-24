@@ -3,93 +3,61 @@ import { Code, Database, BarChart3, Cpu, GitBranch, Layers } from "lucide-react"
 
 export function Skills() {
   const skillCategories = [
-  {
-    icon: 'Figma', // Represents Design/UX
-    title: 'Design & UX',
-    skills: [
-      'Figma',
-      'Balsamiq',
-      'Miro',
-      'Usability Testing',
-      'Wireframing',
-      'Prototyping',
-      'User Research',
-      'Heuristic Evaluation',
-    ],
-    gradient: 'from-purple-50 to-purple-100', // New color for Design
-    iconBg: 'bg-purple-600',
-    borderColor: 'border-purple-200 hover:border-purple-400',
-    tagBorder: 'border-purple-300',
-  },
-  {
-    icon: 'BarChart3', // Represents Data Analysis
-    title: 'Data Science & ML',
-    skills: [
-      'Python',
-      'R',
-      'Excel',
-      'Power BI',
-      'Machine Learning',
-      'Predictive Modeling',
-      'Statistical Analysis',
-    ], // Merged from your "Programming" and "Data Analysis" resume sections
-    gradient: 'from-pink-50 to-pink-100',
-    iconBg: 'bg-pink-600',
-    borderColor: 'border-pink-200 hover:border-pink-400',
-    tagBorder: 'border-pink-300',
-  },
-  {
-    icon: 'Database', // Represents Technical skills, focusing on Data/Systems
-    title: 'Technical & Data Management',
-    skills: [
-      'SQL',
-      'T-SQL',
-      'PowerShell',
-      'Active Directory',
-      'Database Management',
-      'Full-Stack Development',
-      // Assuming you want to keep some of the existing technical tools:
-      'MySQL',
-    ], // Matches 'Technical' on resume
-    gradient: 'from-green-50 to-green-100',
-    iconBg: 'bg-green-600',
-    borderColor: 'border-green-200 hover:border-green-400',
-    tagBorder: 'border-green-300',
-  },
-  {
-    icon: 'GitBranch', // Represents Project & Methodologies
-    title: 'Project & Operations Management',
-    skills: [
-      'Jira',
-      'Confluence',
-      'Agile Practices',
-      'Cross-Functional Collaboration',
-      'Continuous Improvement',
-      'Workflow Optimization',
-      'Quality Control',
-      'Process Automation',
-    ], // Merged 'Processes & Operations' and 'Project & Stakeholder Management' from resume
-    gradient: 'from-yellow-50 to-yellow-100',
-    iconBg: 'bg-yellow-600',
-    borderColor: 'border-yellow-200 hover:border-yellow-400',
-    tagBorder: 'border-yellow-300',
-  },
-  {
-    icon: 'Code', // Represents general programming/web dev
-    title: 'Programming & Web Technologies',
-    skills: [
-      'JavaScript',
-      'React',
-      'Node.js',
-      'REST APIs',
-      'Git', // Essential
-    ], // Keeps existing relevant coding skills not tied to Data Science/SQL
-    gradient: 'from-blue-50 to-blue-100',
-    iconBg: 'bg-blue-600',
-    borderColor: 'border-blue-200 hover:border-blue-400',
-    tagBorder: 'border-blue-300',
-  },
-];
+    {
+      icon: Code,
+      title: "Programming & Scripting",
+      skills: ["Python", "R", "Powershell", "Full-stack Development"],
+      gradient: "from-blue-50 to-blue-100",
+      iconBg: "bg-blue-600",
+      borderColor: "border-blue-200 hover:border-blue-400",
+      tagBorder: "border-blue-300",
+    },
+    {
+      icon: BarChart3,
+      title: "Data Science & Business Analytics",
+      skills: ["Excel", "Power BI", "Statistical Analysis", "Machine Learning", "Predictive Modeling"],
+      gradient: "from-pink-50 to-pink-100",
+      iconBg: "bg-pink-600",
+      borderColor: "border-pink-200 hover:border-pink-400",
+      tagBorder: "border-pink-300",
+    },
+    {
+      icon: Database,
+      title: "Database & Enterprise Tools",
+      skills: ["SQL", "MySQL", "T-SQL", "Database Management", "Active Directory", "Jira", "Confluence"],
+      gradient: "from-green-50 to-green-100",
+      iconBg: "bg-green-600",
+      borderColor: "border-green-200 hover:border-green-400",
+      tagBorder: "border-green-300",
+    },
+    {
+      icon: Cpu,
+      title: "Process Improvement & Strategy",
+      skills: ["Continous Improvement", "Simulation", "Workflow Optimization", "Gurobi", "Quality Control", "Process Automation", "Agile Development"],
+      gradient: "from-yellow-50 to-yellow-100",
+      iconBg: "bg-yellow-600",
+      borderColor: "border-yellow-200 hover:border-yellow-400",
+      tagBorder: "border-yellow-300",
+    },
+    {
+      icon: Layers,
+      title: "UX/UI Design & Prototyping",
+      skills: ["Figma", "Balsamiq", "Miro", "Usability Testing", "Wireframing", "Prototyping", "Heuristic Evaluation"],
+      gradient: "from-blue-50 to-pink-50",
+      iconBg: "bg-gradient-to-r from-blue-600 to-pink-600",
+      borderColor: "border-blue-200 hover:border-pink-400",
+      tagBorder: "border-blue-300",
+    },
+    {
+      icon: GitBranch,
+      title: "Methodologies",
+      skills: ["Agile", "Lean", "Six Sigma", "Design Thinking"],
+      gradient: "from-green-50 to-yellow-50",
+      iconBg: "bg-gradient-to-r from-green-600 to-yellow-600",
+      borderColor: "border-green-200 hover:border-yellow-400",
+      tagBorder: "border-green-300",
+    },
+  ];
 
   return (
     <section id="skills" className="py-20 bg-white">
