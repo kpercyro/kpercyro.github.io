@@ -130,7 +130,7 @@ export function Contact() {
                   </label>
                   <Input
                     id="name"
-                    placeholder="Your name"
+                    placeholder="Kathryn Percy-Robb"
                     className="border-pink-200 focus:border-pink-600"
                   />
                 </div>

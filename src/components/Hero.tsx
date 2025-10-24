@@ -85,7 +85,7 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="mb-6 text-gray-900"
           >
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 bg-clip-text text-transparent">Your Name</span>
+            Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 bg-clip-text text-transparent">Kathryn Percy-Robb</span>
           </motion.h1>
 
           <motion.p
