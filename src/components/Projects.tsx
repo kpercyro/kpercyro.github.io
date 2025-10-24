@@ -8,11 +8,11 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function Projects() {
   const projects = [
     {
-      title: "Supply Chain Optimization",
+      title: "FitSpace – User-Centered Design Platform",
       description:
-        "Developed a comprehensive supply chain optimization model using linear programming to reduce costs by 15% while maintaining service levels. Implemented data visualization dashboards for real-time monitoring.",
+        "Designed and prototyped a fitness space booking and listing platform with mobile and desktop interfaces, improving usability and user satisfaction through iterative testing and design refinements.",
       image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYxMjA2NjczfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Python", "Optimization", "Data Analysis", "Excel"],
+      tags: ["Fimga", "UX Design", "Prototyping", "Teamwork"],
       github: "#",
       demo: "#",
       accentColor: "blue",
@@ -22,11 +22,11 @@ export function Projects() {
       demoButtonColor: "bg-blue-600 hover:bg-blue-700",
     },
     {
-      title: "Predictive Analytics Dashboard",
+      title: "Hotel Cancellation Prediction IDSS",
       description:
-        "Built an interactive dashboard using machine learning algorithms to forecast sales trends and inventory requirements. The tool improved forecast accuracy by 25% compared to previous methods.",
+        "Developed a machine learning-powered decision support system to predict hotel booking cancellations, enabling hotels to optimize overbooking strategies and improve operational efficiency. Built an interactive Streamlit dashboard for real-time predictions and insights.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTE5MTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["React", "Python", "Machine Learning", "SQL"],
+      tags: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Analysis"],
       github: "#",
       demo: "#",
       accentColor: "pink",
@@ -36,11 +36,11 @@ export function Projects() {
       demoButtonColor: "bg-pink-600 hover:bg-pink-700",
     },
     {
-      title: "Process Automation Tool",
+      title: "Volunteer Selection and Scheduling Platform",
       description:
-        "Created an automation solution for repetitive data entry tasks, reducing manual work by 80%. Integrated with existing systems and provided comprehensive error handling and logging.",
+        "Created a data-driven system to streamline volunteer selection and scheduling for UW Engineering Outreach, automating assessment of 100+ applicants with a custom ranking algorithm and optimization model, reducing manual effort and improving transparency.",
       image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbmdpbmVlcmluZyUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjEyNTIwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Python", "APIs", "Automation", "Database"],
+      tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       github: "#",
       demo: "#",
       accentColor: "green",

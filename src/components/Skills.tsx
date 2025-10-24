@@ -33,7 +33,7 @@ export function Skills() {
     {
       icon: Cpu,
       title: "Process Improvement & Strategy",
-      skills: ["Continous Improvement", "Simulation", "Workflow Optimization", "Gurobi", "Quality Control", "Process Automation", "Agile Development"],
+      skills: ["Continous Improvement", "Simulation", "Workflow Optimization", "Gurobi", "Quality Control", "Process Automation"],
       gradient: "from-yellow-50 to-yellow-100",
       iconBg: "bg-yellow-600",
       borderColor: "border-yellow-200 hover:border-yellow-400",
@@ -51,7 +51,7 @@ export function Skills() {
     {
       icon: GitBranch,
       title: "Methodologies",
-      skills: ["Agile", "Lean", "Six Sigma", "Design Thinking"],
+      skills: ["Agile", "Lean", "Six Sigma"],
       gradient: "from-green-50 to-yellow-50",
       iconBg: "bg-gradient-to-r from-green-600 to-yellow-600",
       borderColor: "border-green-200 hover:border-yellow-400",
