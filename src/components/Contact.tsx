@@ -64,8 +64,8 @@ export function Contact() {
           </p>
         </motion.div>
 
-        {/* Centered Contact Info */}
-        <div className="flex justify-center">
+        {/* Centered Contact Info (horizontal + vertical) */}
+        <div className="flex justify-center items-center min-h-[60vh]">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
