@@ -47,13 +47,13 @@ export function Contact() {
       id="contact"
       className="py-20 bg-gradient-to-br from-green-50 via-yellow-50 to-pink-50"
     >
-      <div className="container mx-auto px-6 text-center">
+      <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16"
+          className="mb-16 text-center"
         >
           <h2 className="mb-4 text-gray-900">Get In Touch</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 mx-auto mb-6"></div>
@@ -68,9 +68,9 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-2xl mx-auto"
+          className="max-w-2xl mx-auto text-left"
         >
-          <h3 className="mb-6 text-gray-900">Contact Information</h3>
+          <h3 className="mb-6 text-gray-900 text-center">Contact Information</h3>
           <div className="space-y-6 mb-8">
             {contactInfo.map((info, index) => (
               <motion.div
@@ -79,14 +79,14 @@ export function Contact() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="flex items-center justify-center gap-4"
+                className="flex items-center justify-start gap-4 mx-auto w-fit"
               >
                 <div
                   className={`w-12 h-12 ${info.bgColor} rounded-lg flex items-center justify-center flex-shrink-0`}
                 >
                   <info.icon className={`h-6 w-6 ${info.iconColor}`} />
                 </div>
-                <div className="text-left">
+                <div>
                   <p className="text-gray-900 font-medium">{info.label}</p>
                   {info.link ? (
                     <a
