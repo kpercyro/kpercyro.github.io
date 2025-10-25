@@ -36,7 +36,7 @@ export function Contact() {
       label: "Location",
       value: "Toronto, Canada",
       link: null,
-      bgColor: "bg-orange-100",
+      bgColor: "bg-orange-300", 
       iconColor: "text-orange-600",
       hoverColor: "",
     },
