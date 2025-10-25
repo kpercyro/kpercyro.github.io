@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { Card } from "./ui/card";
 
 export function Contact() {
@@ -31,15 +31,7 @@ export function Contact() {
       iconColor: "text-green-600",
       hoverColor: "hover:text-green-600",
     },
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "Toronto, Canada",
-      link: null,
-      bgColor: "bg-yellow-100",
-      iconColor: "text-yellow-600",
-      hoverColor: "",
-    },
+    // The Location part has been removed
   ];
 
   return (
@@ -68,10 +60,11 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-2xl mx-auto text-left"
+          className="max-w-2xl mx-auto"
         >
           <h3 className="mb-6 text-gray-900 text-center">Contact Information</h3>
-          <div className="space-y-6 mb-8">
+          {/* Apply w-fit mx-auto here to center the list block */}
+          <div className="space-y-6 mb-8 w-fit mx-auto">
             {contactInfo.map((info, index) => (
               <motion.div
                 key={index}
@@ -79,7 +72,8 @@ export function Contact() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="flex items-center justify-start gap-4 mx-auto w-fit"
+                // Removed mx-auto w-fit and justify-start to left-align within the centered parent
+                className="flex items-center gap-4"
               >
                 <div
                   className={`w-12 h-12 ${info.bgColor} rounded-lg flex items-center justify-center flex-shrink-0`}
