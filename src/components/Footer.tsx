@@ -33,7 +33,7 @@ export function Footer() {
             </a>
             <a
               href="#"
-              className="text-gray-400 hover:text-green-400 transition-colors"
+              className="text-gray-400 hover:text-yellow-400 transition-colors"
               aria-label="Email"
             >
               <Mail className="h-6 w-6" />

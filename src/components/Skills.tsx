@@ -25,19 +25,19 @@ export function Skills() {
       icon: Database,
       title: "Database & Enterprise Tools",
       skills: ["SQL", "MySQL", "T-SQL", "Database Management", "Active Directory", "Jira", "Confluence"],
-      gradient: "from-green-50 to-green-100",
-      iconBg: "bg-green-600",
-      borderColor: "border-green-200 hover:border-green-400",
-      tagBorder: "border-green-300",
+      gradient: "from-yellow-50 to-yellow-100",
+      iconBg: "bg-yellow-600",
+      borderColor: "border-yellow-200 hover:border-yellow-400",
+      tagBorder: "border-yellow-300",
     },
     {
       icon: Cpu,
       title: "Process Improvement & Strategy",
       skills: ["Continous Improvement", "Simulation", "Workflow Optimization", "Gurobi", "Quality Control", "Process Automation"],
-      gradient: "from-yellow-50 to-yellow-100",
-      iconBg: "bg-yellow-600",
-      borderColor: "border-yellow-200 hover:border-yellow-400",
-      tagBorder: "border-yellow-300",
+      gradient: "from-green-50 to-green-100",
+      iconBg: "bg-green-600",
+      borderColor: "border-green-200 hover:border-green-400",
+      tagBorder: "border-green-300",
     },
     {
       icon: Layers,
@@ -52,10 +52,10 @@ export function Skills() {
       icon: GitBranch,
       title: "Methodologies",
       skills: ["Agile", "Lean", "Six Sigma"],
-      gradient: "from-green-50 to-yellow-50",
-      iconBg: "bg-gradient-to-r from-green-600 to-yellow-600",
-      borderColor: "border-green-200 hover:border-yellow-400",
-      tagBorder: "border-green-300",
+      gradient: "from-yellow-50 to-green-50",
+      iconBg: "bg-gradient-to-r from-yellow-600 to-green-600",
+      borderColor: "border-yellow-200 hover:border-green-400",
+      tagBorder: "border-yellow-300",
     },
   ];
 
@@ -70,7 +70,7 @@ export function Skills() {
           className="text-center mb-16"
         >
           <h2 className="mb-4 text-gray-900">Skills & Expertise</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             A comprehensive toolkit built through academic coursework and hands-on project
             experience.

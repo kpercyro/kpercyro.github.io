@@ -43,16 +43,16 @@ export function Projects() {
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       github: "#",
       demo: "#",
-      accentColor: "green",
-      overlayColor: "bg-green-900",
-      borderColor: "border-t-green-500",
-      buttonColor: "border-green-600 text-green-600 hover:bg-green-50",
-      demoButtonColor: "bg-green-600 hover:bg-green-700",
+      accentColor: "yellow",
+      overlayColor: "bg-yellow-900",
+      borderColor: "border-t-yellow-500",
+      buttonColor: "border-yellow-600 text-yellow-600 hover:bg-yellow-50",
+      demoButtonColor: "bg-yellow-600 hover:bg-yellow-700",
     },
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50">
+    <section id="projects" className="py-20 bg-gradient-to-br from-blue-50 via-pink-50 to-green-50">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ export function Projects() {
           className="text-center mb-16"
         >
           <h2 className="mb-4 text-gray-900">Featured Projects</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             A selection of projects that demonstrate my skills in data analysis, optimization,
             and system design.

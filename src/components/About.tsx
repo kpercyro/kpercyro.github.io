@@ -26,19 +26,19 @@ export function About() {
       icon: Lightbulb,
       title: "Innovation",
       description: "Creating efficient solutions through technology and analytics",
-      color: "green",
-      bgColor: "bg-green-100",
-      iconColor: "text-green-600",
-      borderColor: "border-green-200 hover:border-green-400",
+      color: "yellow",
+      bgColor: "bg-yellow-100",
+      iconColor: "text-yellow-600",
+      borderColor: "border-yellow-200 hover:border-yellow-400",
     },
     {
       icon: TrendingUp,
       title: "Growth",
       description: "Continuously learning and adapting to new challenges",
-      color: "yellow",
-      bgColor: "bg-yellow-100",
-      iconColor: "text-yellow-600",
-      borderColor: "border-yellow-200 hover:border-yellow-400",
+      color: "green",
+      bgColor: "bg-green-100",
+      iconColor: "text-green-600",
+      borderColor: "border-green-200 hover:border-green-400",
     },
   ];
 
@@ -53,7 +53,7 @@ export function About() {
           className="text-center mb-16"
         >
           <h2 className="mb-4 text-gray-900">About Me</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto"></div>
         </motion.div>
 
         <div className="max-w-6xl mx-auto">

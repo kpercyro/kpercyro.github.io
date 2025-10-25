@@ -19,8 +19,8 @@ export function Navigation() {
   const navItems = [
     { label: "About", href: "#about", hoverColor: "hover:text-blue-600" },
     { label: "Projects", href: "#projects", hoverColor: "hover:text-pink-600" },
-    { label: "Skills", href: "#skills", hoverColor: "hover:text-green-600" },
-    { label: "Contact", href: "#contact", hoverColor: "hover:text-yellow-600" },
+    { label: "Skills", href: "#skills", hoverColor: "hover:text-yellow-600" },
+    { label: "Contact", href: "#contact", hoverColor: "hover:text-green-600" },
   ];
 
   const handleNavClick = (href: string) => {
@@ -44,7 +44,7 @@ export function Navigation() {
           <div className="flex items-center justify-between h-16">
             <motion.a
               href="#"
-              className="bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 bg-clip-text text-transparent"
+              className="bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 bg-clip-text text-transparent"
               whileHover={{ scale: 1.05 }}
             >
               Portfolio

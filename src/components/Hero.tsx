@@ -8,7 +8,7 @@ export function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-pink-50 to-green-50">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -36,7 +36,7 @@ export function Hero() {
           }}
         />
         <motion.div
-          className="absolute top-1/2 left-1/2 w-80 h-80 bg-green-200 rounded-full mix-blend-multiply filter blur-xl opacity-20"
+          className="absolute top-1/2 left-1/2 w-80 h-80 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-20"
           animate={{
             x: [-50, 50, -50],
             y: [-50, 50, -50],
@@ -48,7 +48,7 @@ export function Hero() {
           }}
         />
         <motion.div
-          className="absolute top-40 right-1/4 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
+          className="absolute top-40 right-1/4 w-64 h-64 bg-green-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
           animate={{
             x: [0, -80, 0],
             y: [0, 80, 0],
@@ -85,7 +85,7 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="mb-6 text-gray-900"
           >
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 bg-clip-text text-transparent">Kathryn Percy-Robb</span>
+            Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 bg-clip-text text-transparent">Kathryn Percy-Robb</span>
           </motion.h1>
 
           <motion.p
@@ -140,7 +140,7 @@ export function Hero() {
             </a>
             <a
               href="#"
-              className="text-gray-600 hover:text-green-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
               aria-label="Email"
             >
               <Mail className="h-6 w-6" />
