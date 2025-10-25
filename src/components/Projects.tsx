@@ -43,7 +43,7 @@ export function Projects() {
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       github: "#",
       demo: "#",
-      accentColor: "yellow",
+      accentColor: "yellow-600",
       overlayColor: "bg-yellow-900",
       borderColor: "border-t-yellow-500",
       buttonColor: "border-yellow-600 text-yellow-600 hover:bg-yellow-50",
