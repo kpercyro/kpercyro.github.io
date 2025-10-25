@@ -16,8 +16,8 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      value: "kpercyro@uwaterloo.ca",
+      link: "mailto:kpercyro@uwaterloo.ca",
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600",
       hoverColor: "hover:text-blue-600",
@@ -25,8 +25,8 @@ export function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/yourprofile",
-      link: "https://linkedin.com",
+      value: "https://www.linkedin.com/in/kathryn-percy-robb/",
+      link: "https://www.linkedin.com/in/kathryn-percy-robb/",
       bgColor: "bg-pink-100",
       iconColor: "text-pink-600",
       hoverColor: "hover:text-pink-600",
@@ -34,8 +34,8 @@ export function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/yourusername",
-      link: "https://github.com",
+      value: "https://github.com/kpercyro",
+      link: "https://github.com/kpercyro",
       bgColor: "bg-green-100",
       iconColor: "text-green-600",
       hoverColor: "hover:text-green-600",
@@ -43,7 +43,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, Country",
+      value: "Toronto, Canada",
       link: null,
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600",

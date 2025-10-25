@@ -7,7 +7,7 @@ export function About() {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "Management Engineering program focused on optimization and systems thinking",
+      description: "Management Engineering program focused on optimization and engineering design",
       color: "blue",
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600",
