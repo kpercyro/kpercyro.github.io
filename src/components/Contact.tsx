@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MapPin, Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { Card } from "./ui/card";
 
 export function Contact() {
@@ -27,25 +27,26 @@ export function Contact() {
       label: "GitHub",
       value: "https://github.com/kpercyro",
       link: "https://github.com/kpercyro",
-      bgColor: "bg-yellow-100",
-      iconColor: "text-yellow-600",
-      hoverColor: "hover:text-yellow-600",
+      bgColor: "bg-green-100",
+      iconColor: "text-green-600",
+      hoverColor: "hover:text-green-600",
     },
      {
       icon: MapPin,
       label: "Location",
       value: "Toronto, Canada",
       link: null,
-      bgColor: "bg-orange-300", 
-      iconColor: "text-orange-600",
+      bgColor: "bg-yellow-100",
+      iconColor: "text-yellow-600",
       hoverColor: "",
+
     },
   ];
 
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-br from-yellow-50 via-orange-50 to-pink-50"
+      className="py-20 bg-gradient-to-br from-green-50 via-yellow-50 to-pink-50"
     >
       <div className="container mx-auto px-6">
         <motion.div
@@ -56,7 +57,7 @@ export function Contact() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-gray-900">Get In Touch</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-green-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             I'm always open to discussing new opportunities, collaborations, or just having
             a chat about technology and innovation.
@@ -105,7 +106,7 @@ export function Contact() {
             ))}
           </div>
 
-          <Card className="p-6 bg-gradient-to-br from-blue-600 via-pink-600 to-yellow-600 border-0 text-white">
+          <Card className="p-6 bg-gradient-to-br from-blue-600 via-pink-600 to-green-600 border-0 text-white">
             <h4 className="mb-2 text-white">Let's Work Together</h4>
             <p className="text-white/90">
               Whether you have a project in mind, need help with optimization, or just want
