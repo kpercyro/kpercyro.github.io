@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { MapPin, Mail, Linkedin, Github } from "lucide-react";
 import { Card } from "./ui/card";
 
 export function Contact() {
