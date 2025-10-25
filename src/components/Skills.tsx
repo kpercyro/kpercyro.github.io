@@ -52,7 +52,7 @@ export function Skills() {
       icon: GitBranch,
       title: "Methodologies",
       skills: ["Agile", "Lean", "Six Sigma"],
-      gradient: "from-yellow-50 to-green-50",
+      gradient: "from-green-50 to-yellow-50",
       iconBg: "bg-gradient-to-r from-yellow-600 to-green-600",
       borderColor: "border-yellow-200 hover:border-green-400",
       tagBorder: "border-yellow-300",
