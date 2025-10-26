@@ -79,16 +79,6 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center max-w-4xl mx-auto"
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6"
-          >
-            <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-100 to-pink-100 text-blue-700 rounded-full">
-              Management Engineering Student
-            </span>
-          </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
