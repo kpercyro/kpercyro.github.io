@@ -7,6 +7,13 @@ export function Hero() {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  // Define the social/contact links based on your Contact section
+  const socialLinks = {
+    linkedin: "https://www.linkedin.com/in/kathryn-percy-robb/", 
+    github: "https://github.com/kpercyro", 
+    email: "mailto:kpercyro@uwaterloo.ca", 
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50">
       {/* Animated background elements */}
@@ -85,7 +92,10 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="mb-6 text-gray-900"
           >
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 bg-clip-text text-transparent">Kathryn Percy-Robb</span>
+            Hi, I'm{" "}
+            <span className="bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 bg-clip-text text-transparent">
+              Kathryn Percy-Robb
+            </span>
           </motion.h1>
 
           <motion.p
@@ -94,9 +104,10 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="mb-8 text-gray-600 max-w-2xl mx-auto"
           >
-            A passionate management engineering student combining analytical thinking with
-            innovative problem-solving to create impactful solutions. I specialize in
-            optimizing processes, analyzing data, and building systems that drive results.
+            A passionate management engineering student combining analytical
+            thinking with innovative problem-solving to create impactful
+            solutions. I specialize in optimizing processes, analyzing data, and
+            building systems that drive results.
           </motion.p>
 
           <motion.div
@@ -113,7 +124,11 @@ export function Hero() {
               View My Work
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-blue-600 text-blue-600 hover:bg-blue-50"
+            >
               Contact Me
             </Button>
           </motion.div>
@@ -124,22 +139,29 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="flex gap-6 justify-center"
           >
+            {/* LinkedIn Link */}
             <a
-              href="#"
+              href={socialLinks.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-600 hover:text-blue-600 transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6" />
             </a>
+            {/* GitHub Link */}
             <a
-              href="#"
+              href={socialLinks.github}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-600 hover:text-pink-600 transition-colors"
               aria-label="GitHub"
             >
               <Github className="h-6 w-6" />
             </a>
+            {/* Email Link */}
             <a
-              href="#"
+              href={socialLinks.email}
               className="text-gray-600 hover:text-yellow-600 transition-colors"
               aria-label="Email"
             >
