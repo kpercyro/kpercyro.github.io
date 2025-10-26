@@ -29,7 +29,7 @@ export function Projects() {
       tags: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Analysis"],
       github: "#",
       demo: "#",
-      **accentColor: "pink-600",** // Changed from "pink" to "pink-600" for dynamic text color to work
+      accentColor: "pink-600",
       overlayColor: "bg-pink-900",
       borderColor: "border-t-pink-500",
       buttonColor: "border-pink-600 text-pink-600 hover:bg-pink-50",
