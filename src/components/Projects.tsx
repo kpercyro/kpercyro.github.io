@@ -92,7 +92,7 @@ export function Projects() {
                   <p className="text-gray-600 mb-4 flex-1">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag, tagIndex) => (
-                      <Badge key={tagIndex} variant="secondary" className={`bg-${project.accentColor}-100 text-${project.accentColor}-700 hover:bg-${project.accentColor}-200`}>
+                      <Badge key={tagIndex} variant="secondary" className={`bg-${project.accentColor}-100 text-gray-900 hover:bg-${project.accentColor}-200`}>
                         {tag}
                       </Badge>
                     ))}
