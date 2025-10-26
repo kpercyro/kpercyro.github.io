@@ -31,7 +31,7 @@ export function Contact() {
       iconColor: "text-yellow-600",
       hoverColor: "hover:text-yellow-600",
     },
-     {
+      {
       icon: MapPin,
       label: "Location",
       value: "Toronto, Canada",
@@ -105,14 +105,6 @@ export function Contact() {
               </motion.div>
             ))}
           </div>
-
-          <Card className="p-6 bg-gradient-to-br from-blue-600 via-pink-600 to-yellow-600 border-0 text-white">
-            <h4 className="mb-2 text-white">Let's Work Together</h4>
-            <p className="text-white/90">
-              Whether you have a project in mind, need help with optimization, or just want
-              to connect, I'd love to hear from you!
-            </p>
-          </Card>
         </motion.div>
       </div>
     </section>
