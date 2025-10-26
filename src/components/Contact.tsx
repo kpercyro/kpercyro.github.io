@@ -55,6 +55,7 @@ export function Contact() {
           transition={{ duration: 0.6 }}
           className="mb-16 text-center"
         >
+          {/* Changed heading to "Contact Info" */}
           <h2 className="mb-4 text-gray-900">Contact Info</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -70,6 +71,7 @@ export function Contact() {
           transition={{ duration: 0.6 }}
           className="max-w-2xl mx-auto"
         >
+          {/* Removed the extra <h3>Contact Information</h3> heading */}
           <div className="space-y-6 mb-8 w-fit mx-auto">
             {contactInfo.map((info, index) => (
               <motion.div
@@ -101,6 +103,8 @@ export function Contact() {
               </motion.div>
             ))}
           </div>
+
+          {/* Removed the "Let's Work Together" Card block */}
         </motion.div>
       </div>
     </section>
