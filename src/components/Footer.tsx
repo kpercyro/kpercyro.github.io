@@ -3,6 +3,13 @@ import { Github, Linkedin, Mail, Heart } from "lucide-react";
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
+  // Define the social/contact links using the same URLs
+  const socialLinks = {
+    linkedin: "https://www.linkedin.com/in/kathryn-percy-robb/", 
+    github: "https://github.com/kpercyro", 
+    email: "mailto:kpercyro@uwaterloo.ca", 
+  };
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-6">
@@ -17,22 +24,29 @@ export function Footer() {
           </div>
 
           <div className="flex gap-6">
+            {/* LinkedIn Link */}
             <a
-              href="#"
+              href={socialLinks.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6" />
             </a>
+            {/* GitHub Link */}
             <a
-              href="#"
+              href={socialLinks.github}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-pink-400 transition-colors"
               aria-label="GitHub"
             >
               <Github className="h-6 w-6" />
             </a>
+            {/* Email Link */}
             <a
-              href="#"
+              href={socialLinks.email}
               className="text-gray-400 hover:text-yellow-400 transition-colors"
               aria-label="Email"
             >
