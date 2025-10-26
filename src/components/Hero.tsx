@@ -7,6 +7,10 @@ export function Hero() {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToContactMe = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   // Define the social/contact links based on your Contact section
   const socialLinks = {
     linkedin: "https://www.linkedin.com/in/kathryn-percy-robb/", 
@@ -124,10 +128,12 @@ export function Hero() {
               View My Work
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
+
             <Button
               size="lg"
               variant="outline"
               className="border-blue-600 text-blue-600 hover:bg-blue-50"
+              onClick={scrollToContactMe}
             >
               Contact Me
             </Button>
