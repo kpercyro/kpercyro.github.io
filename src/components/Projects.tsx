@@ -13,8 +13,8 @@ export function Projects() {
         "Designed and prototyped a fitness space booking and listing platform with mobile and desktop interfaces, improving usability and user satisfaction through iterative testing and design refinements.",
       image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYxMjA2NjczfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Fimga", "UX Design", "Prototyping", "Teamwork"],
-      presentationLink: "https://www.canva.com/design/DAG2_dCc4As/4uYEPo3gYPS27lKe4DpJUQ/edit?utm_content=DAG2_dCc4As&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", // FitSpace Presentation Link
-      figmaPrototype: "YOUR_FIGMA_LINK_HERE", // FitSpace Figma Prototype Link
+      presentationLink: "YOUR_FIGMA_LINK_HERE", // FitSpace Presentation Link
+      figmaPrototype: "https://www.canva.com/design/DAG2_dCc4As/4uYEPo3gYPS27lKe4DpJUQ/edit?utm_content=DAG2_dCc4As&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", // FitSpace Figma Prototype Link
       // Fallback/unused links for FitSpace (needed for button logic)
       github: "#",
       demo: "#",
@@ -31,8 +31,8 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTE5MTg1Nnww&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Analysis"],
       // --- UPDATED LINKS FOR HOTEL CANCELLATION ---
-      github: "https://github.com/kpercyro/Hotel-Cancellation-Classification", 
-      demo: "YOUR_DEMO_LINK_HERE",
+      github: "https://docs.google.com/presentation/d/1E2ZOkbeHrqg6QG8-Hw3T8TzcKcH8mtfP25MFQj7grwE/edit?usp=sharing", 
+      demo: "https://github.com/kpercyro/Hotel-Cancellation-Classification",
       // --------------------------------------------
       accentColor: "pink-600",
       overlayColor: "bg-pink-900",
@@ -47,8 +47,8 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlbmdpbmVlcmluZyUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjEyNTIwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       // --- UPDATED LINKS FOR VOLUNTEER PLATFORM ---
-      github: "https://github.com/kpercyro/CapstoneProject", 
-      demo: "YOUR_DEMO_LINK_HERE",
+      github: "https://drive.google.com/file/d/1X1sO1Hk2PV-IbMKwD3CJn6ujGXzMZoA8/view?usp=sharing", 
+      demo: "https://github.com/kpercyro/CapstoneProject",
       // --------------------------------------------
       accentColor: "green-600",
       overlayColor: "bg-green-900",
@@ -117,7 +117,7 @@ export function Projects() {
                         >
                           <a href={project.presentationLink} target="_blank" rel="noopener noreferrer">
                             <FileText className="h-4 w-4 mr-2" /> {/* Changed from ExternalLink to FileText for "Report" context */}
-                            Report {/* Renamed to Report */}
+                            Presentation {/* Renamed to Report */}
                           </a>
                         </Button>
                         {/* Prototype (Changed icon to Figma logo) */}
