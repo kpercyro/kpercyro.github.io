@@ -28,7 +28,7 @@ export function Projects() {
       title: "Hotel Cancellation Prediction IDSS",
       description:
         "Developed a machine learning-powered decision support system to predict hotel booking cancellations, enabling hotels to optimize overbooking strategies and improve operational efficiency. Built an interactive Streamlit dashboard for real-time predictions and insights.",
-      image: "https://drive.google.com/file/d/1787gYA1lRUn8i-3uX4EBGKSlGRkjTgk9/view?usp=sharing",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTE5MTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Analysis"],
       // --- UPDATED LINKS FOR HOTEL CANCELLATION ---
       github: "https://github.com/kpercyro/Hotel-Cancellation-Classification", 
@@ -47,7 +47,7 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlbmdpbmVlcmluZyUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjEyNTIwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       // --- UPDATED LINKS FOR VOLUNTEER PLATFORM ---
-      github: "YOUR_GITHUB_LINK_HERE", 
+      github: "https://github.com/kpercyro/CapstoneProject", 
       demo: "YOUR_DEMO_LINK_HERE",
       // --------------------------------------------
       accentColor: "green-600",
