@@ -20,7 +20,7 @@ export function Navigation() {
     { label: "About", href: "#about", hoverColor: "hover:text-blue-600" },
     { label: "Projects", href: "#projects", hoverColor: "hover:text-pink-600" },
     { label: "Skills", href: "#skills", hoverColor: "hover:text-yellow-600" },
-    { label: "Contact", href: "#contact", hoverColor: "hover:text-green-600" },
+    { label: "Contact", href: "#contact", hoverColor: "hover:text-orange-600" },
   ];
 
   const handleNavClick = (href: string) => {

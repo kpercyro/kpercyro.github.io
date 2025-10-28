@@ -59,7 +59,7 @@ export function Hero() {
           }}
         />
         <motion.div
-          className="absolute top-40 right-1/4 w-64 h-64 bg-green-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
+          className="absolute top-40 right-1/4 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
           animate={{
             x: [0, -80, 0],
             y: [0, 80, 0],
