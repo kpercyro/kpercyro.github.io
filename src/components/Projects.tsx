@@ -108,7 +108,8 @@ export function Projects() {
                       <Badge
                         key={tagIndex}
                         variant="secondary"
-                        className={`bg-${project.accentColor}-100 hover:bg-${project.accentColor}-200 **text-gray-900**`}
+                        // **UPDATED: Text color now uses the project's accentColor**
+                        className={`bg-${project.accentColor}-100 hover:bg-${project.accentColor}-200 text-${project.accentColor}-800`}
                       >
                         {tag}
                       </Badge>
