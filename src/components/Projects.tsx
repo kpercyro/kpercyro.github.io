@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github, FileText, Figma } from "lucide-react"; // Added FileText and Figma
+import { ExternalLink, Github, FileText, Figma } from "lucide-react";
 import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
@@ -13,7 +13,7 @@ export function Projects() {
         "Designed and prototyped a fitness space booking and listing platform with mobile and desktop interfaces, improving usability and user satisfaction through iterative testing and design refinements.",
       image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYxMjA2NjczfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Fimga", "UX Design", "Prototyping", "Teamwork"],
-      presentationLink: "YOUR_FIGMA_LINK_HERE", // FitSpace Presentation Link
+      presentationLink: "YOUR_FIGMA_LINK_HERE",
       figmaPrototype: "https://www.canva.com/design/DAG2_dCc4As/4uYEPo3gYPS27lKe4DpJUQ/edit?utm_content=DAG2_dCc4As&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", // FitSpace Figma Prototype Link
       // Fallback/unused links for FitSpace (needed for button logic)
       github: "#",
