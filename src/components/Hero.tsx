@@ -13,16 +13,15 @@ export function Hero() {
 
   // Define the social/contact links based on your Contact section
   const socialLinks = {
-    linkedin: "https://www.linkedin.com/in/kathryn-percy-robb/",
-    github: "https://github.com/kpercyro",
-    email: "mailto:kpercyro@uwaterloo.ca",
+    linkedin: "https://www.linkedin.com/in/kathryn-percy-robb/", 
+    github: "https://github.com/kpercyro", 
+    email: "mailto:kpercyro@uwaterloo.ca", 
   };
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Blue Orb (Original) */}
         <motion.div
           className="absolute top-20 left-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
           animate={{
@@ -35,22 +34,18 @@ export function Hero() {
             ease: "linear",
           }}
         />
-
-        {/* Green Orb (NEW - Overlaps with Blue) */}
         <motion.div
-          className="absolute top-40 left-40 w-64 h-64 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
+          className="absolute top-20 left-10 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
           animate={{
-            x: [0, -80, 0],
-            y: [0, 80, 0],
+            x: [0, 75, 0],
+            y: [0, -25, 0],
           }}
           transition={{
-            duration: 18, // Slightly different duration for distinct movement
+            duration: 20,
             repeat: Infinity,
             ease: "linear",
           }}
         />
-
-        {/* Pink Orb (Original) */}
         <motion.div
           className="absolute bottom-20 right-10 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
           animate={{
@@ -63,7 +58,6 @@ export function Hero() {
             ease: "linear",
           }}
         />
-        {/* Yellow Orb 1 (Original) */}
         <motion.div
           className="absolute top-1/2 left-1/2 w-80 h-80 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-20"
           animate={{
@@ -76,7 +70,6 @@ export function Hero() {
             ease: "linear",
           }}
         />
-        {/* Yellow Orb 2 (Original) */}
         <motion.div
           className="absolute top-40 right-1/4 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
           animate={{
