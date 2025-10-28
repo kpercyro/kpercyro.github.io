@@ -35,7 +35,7 @@ export function Hero() {
           }}
         />
         <motion.div
-          className="absolute bottom-1/3 left-20 w-72 h-72 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30" // CHANGED: bottom-1/3, left-20
+          className="absolute bottom-40 left-1/4 w-72 h-72 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30" // CHANGED: bottom-1/3, left-20
           animate={{
             x: [0, -50, 0],
             y: [0, 100, 0],
