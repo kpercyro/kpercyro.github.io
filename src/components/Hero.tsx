@@ -35,10 +35,10 @@ export function Hero() {
           }}
         />
         <motion.div
-          className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-green-600 to-yellow-600 rounded-full mix-blend-multiply filter blur-xl opacity-30"
+          className="absolute top-20 left-10 w-72 h-72 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30"
           animate={{
-            x: [0, 75, 0],
-            y: [0, -25, 0],
+            x: [0, 50, 0],
+            y: [0, 0, 0],
           }}
           transition={{
             duration: 20,
