@@ -5,13 +5,19 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
+// --- START: NEW IMAGE IMPORTS (assuming files are in the same folder as this component) ---
+import fitspaceImage from "./fitspacePrototypeImage.png";
+import hotelCancellationImage from "./hotelCancellationImage.png";
+import volunteerImage from "./MSE 401 Group 6 EOT Design Review.png";
+// --- END: NEW IMAGE IMPORTS ---
+
 export function Projects() {
   const projects = [
     {
       title: "FitSpace – User-Centered Design Platform",
       description:
         "Designed and prototyped a fitness space booking and listing platform with mobile and desktop interfaces, improving usability and user satisfaction through iterative testing and design refinements.",
-      image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYxMjA2NjczfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: fitspaceImage, // <-- UPDATED PHOTO SOURCE
       tags: ["Fimga", "UX Design", "Prototyping", "Teamwork"],
       presentationLink: "YOUR_FIGMA_LINK_HERE",
       figmaPrototype: "https://www.canva.com/design/DAG2_dCc4As/4uYEPo3gYPS27lKe4DpJUQ/edit?utm_content=DAG2_dCc4As&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", // FitSpace Figma Prototype Link
@@ -28,7 +34,7 @@ export function Projects() {
       title: "Hotel Cancellation Prediction IDSS",
       description:
         "Developed a machine learning-powered decision support system to predict hotel booking cancellations, enabling hotels to optimize overbooking strategies and improve operational efficiency. Built an interactive Streamlit dashboard for real-time predictions and insights.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTE5MTg1Nnww&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: hotelCancellationImage, // <-- UPDATED PHOTO SOURCE
       tags: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Analysis"],
       // --- UPDATED LINKS FOR HOTEL CANCELLATION ---
       github: "https://docs.google.com/presentation/d/1E2ZOkbeHrqg6QG8-Hw3T8TzcKcH8mtfP25MFQj7grwE/edit?usp=sharing", 
@@ -44,7 +50,7 @@ export function Projects() {
       title: "Volunteer Selection and Scheduling Platform",
       description:
         "Created a data-driven system to streamline volunteer selection and scheduling for UW Engineering Outreach, automating assessment of 100+ applicants with a custom ranking algorithm and optimization model, reducing manual effort and improving transparency.",
-      image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlbmdpbmVlcmluZyUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjEyNTIwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: volunteerImage, // <-- UPDATED PHOTO SOURCE
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       // --- UPDATED LINKS FOR VOLUNTEER PLATFORM ---
       github: "https://drive.google.com/file/d/1X1sO1Hk2PV-IbMKwD3CJn6ujGXzMZoA8/view?usp=sharing", 
