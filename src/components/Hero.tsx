@@ -22,67 +22,67 @@ export function Hero() {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-pink-50 to-yellow-50">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <motion.div
-          className="absolute top-20 left-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
-          animate={{
-            x: [0, 100, 0],
-            y: [0, -50, 0],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        />
-        <motion.div
-          className="absolute top-40 left-60 w-72 h-72 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30"
-          animate={{
-            x: [0, 100, 0],
-            y: [0, -50, 0],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        />
-        <motion.div
-          className="absolute bottom-20 right-10 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
-          animate={{
-            x: [0, -100, 0],
-            y: [0, 50, 0],
-          }}
-          transition={{
-            duration: 25,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        />
-        <motion.div
-          className="absolute top-1/2 left-1/2 w-80 h-80 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-20"
-          animate={{
-            x: [-50, 50, -50],
-            y: [-50, 50, -50],
-          }}
-          transition={{
-            duration: 30,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        />
-        <motion.div
-          className="absolute top-40 right-1/4 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
-          animate={{
-            x: [0, -80, 0],
-            y: [0, 80, 0],
-          }}
-          transition={{
-            duration: 22,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        />
-      </div>
+        <motion.div
+          className="absolute top-20 left-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
+          animate={{
+            x: [0, 100, 0],
+            y: [0, -50, 0],
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+        />
+        <motion.div
+          className="absolute top-60 left-30 w-72 h-72 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30" // ADJUSTED POSITION
+          animate={{
+            x: [0, -50, 0], // ADJUSTED ANIMATION
+            y: [0, 100, 0], // ADJUSTED ANIMATION
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+        />
+        <motion.div
+          className="absolute bottom-20 right-10 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
+          animate={{
+            x: [0, -100, 0],
+            y: [0, 50, 0],
+          }}
+          transition={{
+            duration: 25,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+        />
+        <motion.div
+          className="absolute top-1/2 left-1/2 w-80 h-80 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-20"
+          animate={{
+            x: [-50, 50, -50],
+            y: [-50, 50, -50],
+          }}
+          transition={{
+            duration: 30,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+        />
+        <motion.div
+          className="absolute top-40 right-1/4 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-25"
+          animate={{
+            x: [0, -80, 0],
+            y: [0, 80, 0],
+          }}
+          transition={{
+            duration: 22,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+        />
+      </div>
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
