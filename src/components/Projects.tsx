@@ -40,7 +40,7 @@ export function Projects() {
       github: "https://docs.google.com/presentation/d/1E2ZOkbeHrqg6QG8-Hw3T8TzcKcH8mtfP25MFQj7grwE/edit?usp=sharing", 
       demo: "https://github.com/kpercyro/Hotel-Cancellation-Classification",
       // --------------------------------------------
-      accentColor: "pink-600",
+      accentColor: "pink", // CHANGED FROM "pink-600" to "pink"
       overlayColor: "bg-pink-900",
       borderColor: "border-t-pink-500",
       buttonColor: "border-pink-600 text-pink-600 hover:bg-pink-50",
@@ -56,7 +56,7 @@ export function Projects() {
       github: "https://drive.google.com/file/d/1X1sO1Hk2PV-IbMKwD3CJn6ujGXzMZoA8/view?usp=sharing", 
       demo: "https://github.com/kpercyro/CapstoneProject",
       // --------------------------------------------
-      accentColor: "green-600",
+      accentColor: "green", // CHANGED FROM "green-600" to "green"
       overlayColor: "bg-green-900",
       borderColor: "border-t-green-500",
       buttonColor: "border-green-600 text-green-600 hover:bg-green-50",
