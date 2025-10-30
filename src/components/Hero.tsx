@@ -35,18 +35,6 @@ export function Hero() {
           }}
         />
         <motion.div
-          className="absolute bottom-1/2 w-72 h-72 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30"
-          animate={{
-            x: [0, -50, 0],
-            y: [0, 100, 0],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        />
-        <motion.div
           className="absolute bottom-20 right-10 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"
           animate={{
             x: [0, -100, 0],
