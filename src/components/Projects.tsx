@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 // --- START: NEW IMAGE IMPORTS (assuming files are in the same folder as this component) ---
-import fitspaceImage from "./fitspacePrototypeImage.png";
+import fitspaceImage from "./SYDE 542 Case Study - Teambuildr.jpg"; 
 import hotelCancellationImage from "./hotelCancellationImage.png";
 import volunteerImage from "./MSE 401 Group 6 EOT Design Review.png";
 // --- END: NEW IMAGE IMPORTS ---
@@ -117,7 +117,7 @@ export function Projects() {
                   </div>
                   <div className="flex gap-3">
                     {/* Conditional rendering for FitSpace project buttons */}
-                    {project.title === "FitSpace – User-Centered Design Platform" ? (
+                    {project.title === "Design Case Study - Teambuildr" ? (
                       <>
                         {/* Presentation (Remains the same as a report/external link) */}
                         <Button
