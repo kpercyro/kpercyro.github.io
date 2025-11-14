@@ -14,13 +14,13 @@ import volunteerImage from "./MSE 401 Group 6 EOT Design Review.png";
 export function Projects() {
   const projects = [
     {
-      title: "FitSpace – User-Centered Design Platform",
+      title: "Design Case Study - Teambuildr",
       description:
-        "Designed and prototyped a fitness space booking and listing platform with mobile and desktop interfaces, improving usability and user satisfaction through iterative testing and design refinements.",
+        "Conducted a comprehensive UX analysis of the Teambuildr platform, identifying key design issues and proposing actionable improvements in navigation, reporting, and information architecture.",
       image: fitspaceImage, // <-- UPDATED PHOTO SOURCE
-      tags: ["Fimga", "UX Design", "Prototyping", "Teamwork"],
-      presentationLink: "YOUR_FIGMA_LINK_HERE",
-      figmaPrototype: "https://www.canva.com/design/DAG2_dCc4As/4uYEPo3gYPS27lKe4DpJUQ/edit?utm_content=DAG2_dCc4As&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", // FitSpace Figma Prototype Link
+      tags: ["Fimga", "UX Design", "Prototyping", "User Interviews"],
+      presentationLink: "https://www.figma.com/design/o8YK810wCFNXDYlsYLxfAN/SYDE-542-Teambuildr-Case-Study?node-id=0-1&t=jFoHs4UrGs26IHkb-1",
+      figmaPrototype: "https://docs.google.com/presentation/d/1skJ5v9vwByPE-KhCb3iXqOHWM3H93n5QfEsfgfRUinw/edit?usp=sharing", // FitSpace Figma Prototype Link
       // Fallback/unused links for FitSpace (needed for button logic)
       github: "#",
       demo: "#",
