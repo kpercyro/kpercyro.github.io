@@ -7,7 +7,7 @@ export function About() {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "Optimization, software development and engineering design",
+      description: "Management Engineering combines engineering design principles with data analytics and software development to optimize operations in various industries. ",
       color: "blue",
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600",
@@ -17,7 +17,7 @@ export function About() {
     {
       icon: TrendingUp,
       title: "Teaching",
-      description: "Management Engineering Concepts and Introduction to Computer Programming",
+      description: "Teaching Assistant for MSE 100 - Management Engineering Concepts and MSE 121 - Introduction to Computer Programming",
       color: "pink",
       bgColor: "bg-pink-100",
       iconColor: "text-pink-600",
@@ -27,7 +27,7 @@ export function About() {
     {
       icon: Lightbulb,
       title: "Research",
-      description: "Planning to explore AI/ML through a URA next term",
+      description: "Planning to explore AI and ML through a URA next term",
       color: "yellow",
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600",
@@ -35,9 +35,9 @@ export function About() {
     },
 
     {
-      icon: Lightbulb,
+      icon: Target,
       title: "Interests",
-      description: "UI/UX, Product Management, Data Analysis, Teaching",
+      description: "UI/UX, Product Management, Data Analysis, Automation",
       color: "green",
       bgColor: "bg-green-100",
       iconColor: "text-green-600",
