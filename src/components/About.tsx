@@ -66,15 +66,15 @@ export function About() {
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto rounded-full"></div>
         </motion.div>
 
-        {/* Updated Layout: Full-width responsive grid for cards */}
+        {/* Corrected Layout: Responsive grid (1->2->4 columns) */}
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            // Grid classes updated: now fixed to 4 columns horizontally on all screen sizes
-            className="grid grid-cols-4 gap-6"
+            // Grid classes updated: 1 column on mobile, 2 on small screens, 4 on medium screens (md) and up
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"
           >
             {highlights.map((highlight, index) => (
               <motion.div
