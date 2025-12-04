@@ -17,11 +17,10 @@ export function Projects() {
       title: "Design Case Study - Teambuildr",
       description:
         "Conducted a comprehensive UX analysis of the Teambuildr platform, identifying key design issues and proposing actionable improvements in navigation, reporting, and information architecture.",
-      image: fitspaceImage, // <-- UPDATED PHOTO SOURCE
+      image: fitspaceImage,
       tags: ["Fimga", "UX Design", "Prototyping", "User Interviews"],
-      presentationLink: "https://www.figma.com/design/o8YK810wCFNXDYlsYLxfAN/SYDE-542-Teambuildr-Case-Study?node-id=0-1&t=jFoHs4UrGs26IHkb-1",
-      figmaPrototype: "https://docs.google.com/presentation/d/1skJ5v9vwByPE-KhCb3iXqOHWM3H93n5QfEsfgfRUinw/edit?usp=sharing", // FitSpace Figma Prototype Link
-      // Fallback/unused links for FitSpace (needed for button logic)
+      presentationLink: "https://docs.google.com/presentation/d/1skJ5v9vwByPE-KhCb3iXqOHWM3H93n5QfEsfgfRUinw/edit?usp=sharing",
+      figmaPrototype: "https://www.figma.com/design/o8YK810wCFNXDYlsYLxfAN/SYDE-542-Teambuildr-Case-Study?node-id=0-1&t=jFoHs4UrGs26IHkb-1", // FitSpace Figma Prototype Link
       github: "#",
       demo: "#",
       accentColor: "blue",
@@ -155,7 +154,7 @@ export function Projects() {
                         >
                           <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <FileText className="h-4 w-4 mr-2" /> {/* Changed icon to FileText */}
-                            Report {/* Changed label from Code to Report */}
+                            Presentation {/* Changed label from Code to Report */}
                           </a>
                         </Button>
                         {/* Original 'Demo' button changed to 'Code' with Github icon */}
