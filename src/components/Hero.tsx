@@ -87,11 +87,10 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="mb-8 text-gray-600 max-w-2xl mx-auto"
           >
-            A passionate management engineering student combining analytical
-            thinking with innovative problem-solving to create impactful
-            solutions. I specialize in optimizing processes, analyzing data, and
-            building systems that drive results.
+            Hi, I'm Kathryn! I’m a 4th-year Management Engineering student at the University of Waterloo. I have an interest in product management and problem-solving and I love tackling challenges through data analysis and automation. On top of school, I’m a varsity rugby player and actively involved in the engineering community on campus! 
+            
           </motion.p>
+          
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

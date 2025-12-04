@@ -15,8 +15,8 @@ export function About() {
     },
     {
       icon: Target,
-      title: "Focus",
-      description: "Data-driven decision making and process improvement",
+      title: "Interests",
+      description: "Technology, Product Management, Data Analysis, Teaching",
       color: "pink",
       bgColor: "bg-pink-100",
       iconColor: "text-pink-600",
@@ -24,8 +24,8 @@ export function About() {
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "Creating efficient solutions through technology and analytics",
+      title: "Research",
+      description: "Planning to explore AI/ML through a URA next term",
       color: "yellow",
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600",
@@ -33,8 +33,8 @@ export function About() {
     },
     {
       icon: TrendingUp,
-      title: "Growth",
-      description: "Continuously learning and adapting to new challenges",
+      title: "Teaching",
+      description: "Management Engineering Concepts and Introduction to Computer Programming",
       color: "green",
       bgColor: "bg-green-100",
       iconColor: "text-green-600",
@@ -65,22 +65,20 @@ export function About() {
               transition={{ duration: 0.6 }}
             >
               <p className="text-gray-600 mb-6">
-                I'm a management engineering student passionate about leveraging technology
+                Management engineering is all about leveraging technology
                 and analytical methods to solve complex business challenges. My academic
                 journey has equipped me with a unique blend of technical expertise and
                 business acumen.
               </p>
               <p className="text-gray-600 mb-6">
                 Through my coursework and projects, I've developed strong skills in data
-                analysis, optimization, and systems design. I thrive on transforming raw
+                analysis, optimization, and systems design. I enjoy transforming raw
                 data into actionable insights and creating efficient processes that make a
                 real impact.
               </p>
               <p className="text-gray-600">
-                When I'm not working on projects, I'm exploring new technologies, reading
-                about industry trends, and seeking opportunities to apply my skills to
-                real-world problems.
-              </p>
+                
+               </p>
             </motion.div>
 
             <motion.div
