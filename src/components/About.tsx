@@ -57,7 +57,7 @@ export function About() {
         </motion.div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-wrap justify-center gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
             {highlights.map((highlight, index) => (
               <motion.div
                 key={index}
@@ -66,7 +66,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
               >
-                <Card className={`p-6 hover:shadow-lg transition-all ${highlight.borderColor} ${highlight.bgColor} bg-opacity-20`}>
+                <Card className={`p-6 h-full hover:shadow-lg transition-all ${highlight.borderColor} ${highlight.bgColor} bg-opacity-20`}>
                   <div className={`w-12 h-12 ${highlight.bgColor} rounded-lg flex items-center justify-center mb-3`}>
                     <highlight.icon className={`h-6 w-6 ${highlight.iconColor}`} />
                   </div>
