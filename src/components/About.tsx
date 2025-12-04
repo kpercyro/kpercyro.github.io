@@ -73,8 +73,8 @@ export function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            // Grid classes updated: 1 col on mobile, 2 on small screens, 4 on large screens
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+            // Grid classes updated: now fixed to 4 columns horizontally on all screen sizes
+            className="grid grid-cols-4 gap-6"
           >
             {highlights.map((highlight, index) => (
               <motion.div
