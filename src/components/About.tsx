@@ -7,7 +7,7 @@ export function About() {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "Management Engineering combines engineering design principles with data analytics and software development to optimize operations in various industries. ",
+      description: "Management Engineering combines engineering design principles with data analytics and software development to optimize processes. ",
       color: "blue",
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600",
