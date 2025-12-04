@@ -13,6 +13,7 @@ export function About() {
       iconColor: "text-blue-600",
       borderColor: "border-blue-200 hover:border-blue-400",
     },
+
     {
       icon: TrendingUp,
       title: "Teaching",
@@ -22,6 +23,7 @@ export function About() {
       iconColor: "text-pink-600",
       borderColor: "border-pink-200 hover:border-pink-400",
     },
+
     {
       icon: Lightbulb,
       title: "Research",
@@ -31,6 +33,7 @@ export function About() {
       iconColor: "text-yellow-600",
       borderColor: "border-yellow-200 hover:border-yellow-400",
     },
+
     {
       icon: Lightbulb,
       title: "Interests",
@@ -40,11 +43,16 @@ export function About() {
       iconColor: "text-green-600",
       borderColor: "border-green-200 hover:border-green-400",
     },
+
   ];
 
+
+
   return (
+
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,14 +66,15 @@ export function About() {
 
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-12 items-center mb-16">
-            {/* Removed the text paragraphs */}
+
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="grid grid-cols-4 gap-4"
+              className="grid grid-cols-2 gap-4"
             >
+
               {highlights.map((highlight, index) => (
                 <motion.div
                   key={index}
@@ -78,15 +87,21 @@ export function About() {
                     <div className={`w-12 h-12 ${highlight.bgColor} rounded-lg flex items-center justify-center mb-3`}>
                       <highlight.icon className={`h-6 w-6 ${highlight.iconColor}`} />
                     </div>
+
                     <h3 className="mb-2 text-gray-900">{highlight.title}</h3>
                     <p className="text-gray-600">{highlight.description}</p>
+
                   </Card>
+
                 </motion.div>
+
               ))}
+
             </motion.div>
           </div>
         </div>
       </div>
     </section>
   );
+
 }
