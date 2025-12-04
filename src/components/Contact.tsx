@@ -58,10 +58,6 @@ export function Contact() {
         >
           <h2 className="mb-4 text-gray-900">Contact Information</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto mb-6"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, collaborations, or just having
-            a chat about technology and innovation.
-          </p>
         </motion.div>
 
         <motion.div

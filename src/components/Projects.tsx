@@ -76,8 +76,7 @@ export function Projects() {
           <h2 className="mb-4 text-gray-900">Featured Projects</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 via-pink-600 to-yellow-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A selection of projects that demonstrate my skills in data analysis, optimization,
-            and system design.
+            A selection of projects that demonstrate my skills in data analysis and system design.
           </p>
         </motion.div>
 
