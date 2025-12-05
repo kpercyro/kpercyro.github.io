@@ -46,9 +46,13 @@ export function About() {
 
   ];
 
+
+
   return (
+
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -61,33 +65,43 @@ export function About() {
         </motion.div>
 
         <div className="max-w-6xl mx-auto">
-          {/* THIS IS THE KEY CHANGE: 
-            The parent div already has grid md:grid-cols-4 and gap-12. 
-            We map over the highlights array directly inside this element. 
-            I've also removed the inner 'grid grid-cols-2 gap-4' div.
-          */}
           <div className="grid md:grid-cols-4 gap-12 items-center mb-16">
-            {highlights.map((highlight, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
-                // NOTE: The previous motion.div around the inner grid is also removed
-              >
-                <Card className={`p-6 hover:shadow-lg transition-all ${highlight.borderColor} ${highlight.bgColor} bg-opacity-20`}>
-                  <div className={`w-12 h-12 ${highlight.bgColor} rounded-lg flex items-center justify-center mb-3`}>
-                    <highlight.icon className={`h-6 w-6 ${highlight.iconColor}`} />
-                  </div>
-                  <h3 className="mb-2 text-gray-900">{highlight.title}</h3>
-                  <p className="text-gray-600">{highlight.description}</p>
-                </Card>
-              </motion.div>
-            ))}
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="grid grid-cols-2 gap-4"
+            >
+
+              {highlights.map((highlight, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1, duration: 0.6 }}
+                >
+                  <Card className={`p-6 hover:shadow-lg transition-all ${highlight.borderColor} ${highlight.bgColor} bg-opacity-20`}>
+                    <div className={`w-12 h-12 ${highlight.bgColor} rounded-lg flex items-center justify-center mb-3`}>
+                      <highlight.icon className={`h-6 w-6 ${highlight.iconColor}`} />
+                    </div>
+
+                    <h3 className="mb-2 text-gray-900">{highlight.title}</h3>
+                    <p className="text-gray-600">{highlight.description}</p>
+
+                  </Card>
+
+                </motion.div>
+
+              ))}
+
+            </motion.div>
           </div>
         </div>
       </div>
     </section>
   );
+
 }
