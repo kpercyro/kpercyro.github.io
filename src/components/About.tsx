@@ -65,14 +65,14 @@ export function About() {
         </motion.div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-1 gap-12 items-center mb-16">
+          <div className="grid md:grid-cols-4 gap-12 items-center mb-16">
 
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="grid grid-cols-1 gap-4"
+              className="grid grid-cols-2 gap-4"
             >
 
               {highlights.map((highlight, index) => (
