@@ -153,7 +153,7 @@ export function Projects() {
                         >
                           <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <FileText className="h-4 w-4 mr-2" /> {/* Changed icon to FileText */}
-                            Presentation {/* Changed label from Code to Report */}
+                            Report {/* Changed label from Code to Report */}
                           </a>
                         </Button>
                         {/* Original 'Demo' button changed to 'Code' with Github icon */}
