@@ -15,7 +15,7 @@ export function Skills() {
     {
       icon: BarChart3,
       title: "Data Science & Business Analytics",
-      skills: ["Excel", "Power BI", "Statistical Analysis", "Machine Learning", "Predictive Modeling"],
+      skills: ["Excel", "Power BI", "Machine Learning", "Statistical Analysis", "Predictive Modeling"],
       gradient: "from-pink-50 to-pink-100",
       iconBg: "bg-pink-600",
       borderColor: "border-pink-200 hover:border-pink-400",
@@ -24,7 +24,7 @@ export function Skills() {
     {
       icon: Database,
       title: "Database & Enterprise Tools",
-      skills: ["SQL", "MySQL", "T-SQL", "Database Management", "Active Directory", "Jira", "Confluence"],
+      skills: ["SQL", "MySQL", "T-SQL", "Jira", "Database Management", "Confluence"],
       gradient: "from-yellow-50 to-yellow-100",
       iconBg: "bg-yellow-600",
       borderColor: "border-yellow-200 hover:border-yellow-400",
@@ -33,7 +33,7 @@ export function Skills() {
     {
       icon: Cpu,
       title: "Process Improvement & Strategy",
-      skills: ["Continous Improvement", "Simulation", "Workflow Optimization", "Gurobi", "Quality Control", "Process Automation"],
+      skills: ["Simulation", "Workflow Optimization", "Quality Control", "Process Automation"],
       gradient: "from-green-50 to-green-100",
       iconBg: "bg-green-600",
       borderColor: "border-green-200 hover:border-green-400",
@@ -42,7 +42,7 @@ export function Skills() {
     {
       icon: Layers,
       title: "UX/UI Design & Prototyping",
-      skills: ["Figma", "Balsamiq", "Miro", "Usability Testing", "Wireframing", "Prototyping", "Heuristic Evaluation"],
+      skills: ["Figma", "Miro", "Usability Testing", "Wireframing", "Prototyping", "Heuristic Evaluation"],
       gradient: "from-blue-50 to-pink-50",
       iconBg: "bg-gradient-to-r from-blue-600 to-pink-600",
       borderColor: "border-blue-200 hover:border-pink-400",
@@ -51,7 +51,7 @@ export function Skills() {
     {
       icon: GitBranch,
       title: "Methodologies",
-      skills: ["Agile", "Lean", "Six Sigma"],
+      skills: ["Agile", "Lean", "Six Sigma", "Continous Improvement"],
       gradient: "from-yellow-50 to-green-50",
       iconBg: "bg-gradient-to-r from-green-600 to-yellow-600",
       borderColor: "border-yellow-200 hover:border-green-400",

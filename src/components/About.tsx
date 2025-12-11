@@ -17,7 +17,7 @@ export function About() {
     {
       icon: TrendingUp,
       title: "Teaching",
-      description: "I was a teaching assistant for MSE 100: Management Engineering Concepts and MSE 121: Introduction to Computer Programming",
+      description: "I was a TA for MSE 100: Management Engineering Concepts and MSE 121: Introduction to Computer Programming",
       color: "pink",
       bgColor: "bg-pink-100",
       iconColor: "text-pink-600",
@@ -27,7 +27,7 @@ export function About() {
     {
       icon: Lightbulb,
       title: "Research",
-      description: "I'm going to be exploring student persistance in AI through a URA next term in the Share Lab",
+      description: "I'm going to explore student persistance in AI through a URA next term",
       color: "yellow",
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600",
