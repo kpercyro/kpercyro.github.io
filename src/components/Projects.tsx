@@ -8,7 +8,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 // --- START: NEW IMAGE IMPORTS (assuming files are in the same folder as this component) ---
 import fitspaceImage from "./Case Study - Teambuildr.png"; 
 import hotelCancellationImage from "./hotelCancellationImage.png";
-import volunteerImage from "./STEMSelect - Optimizing Volunteer Placements.png";
+import volunteerImage from "./Volunteer Selection and Scheduling Platform.png";
 // --- END: NEW IMAGE IMPORTS ---
 
 export function Projects() {
@@ -16,7 +16,7 @@ export function Projects() {
     {
       title: "Design Case Study - Teambuildr",
       description:
-        "Conducted a comprehensive UX analysis of the Teambuildr platform, identifying key design issues and proposing actionable improvements in navigation, reporting, and information architecture.",
+        "Conducted a UX analysis of the Teambuildr platform, identifying key design issues and proposing actionable improvements.",
       image: fitspaceImage,
       tags: ["Fimga", "UX Design", "Prototyping", "User Interviews"],
       presentationLink: "https://docs.google.com/presentation/d/1skJ5v9vwByPE-KhCb3iXqOHWM3H93n5QfEsfgfRUinw/edit?usp=sharing",
@@ -32,7 +32,7 @@ export function Projects() {
     {
       title: "Hotel Cancellation Prediction IDSS",
       description:
-        "Developed a machine learning-powered decision support system to predict hotel booking cancellations, enabling hotels to optimize overbooking strategies and improve operational efficiency. Built an interactive Streamlit dashboard for real-time predictions and insights.",
+        "Developed an interactive Streamlit dashboard powered by a Random Forest classification model to predict hotel booking cancellations.",
       image: hotelCancellationImage,
       tags: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Analysis"],
       github: "https://docs.google.com/presentation/d/1E2ZOkbeHrqg6QG8-Hw3T8TzcKcH8mtfP25MFQj7grwE/edit?usp=sharing",
@@ -44,9 +44,9 @@ export function Projects() {
       demoButtonColor: "bg-pink-600 hover:bg-pink-700",
     },
     {
-      title: "Volunteer Selection and Scheduling Platform",
+      title: "Volunteer Selection and Scheduling Tool",
       description:
-        "Created a data-driven system to streamline volunteer selection and scheduling for UW Engineering Outreach, automating assessment of 100+ applicants with a custom ranking algorithm and optimization model, reducing manual effort and improving transparency.",
+        "Developed an automated system for UW Engineering Outreach to select and schedule volunteers using a custom ranking algorithm and optimization model.",
       image: volunteerImage,
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
       github: "https://docs.google.com/presentation/d/1_tWIYh0K308rWryXVFpMX2p9jFtoYeCgZfkp7Rxdurw/edit?usp=sharing",
