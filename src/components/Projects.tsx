@@ -6,9 +6,9 @@ import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 // --- START: NEW IMAGE IMPORTS (assuming files are in the same folder as this component) ---
-import fitspaceImage from "./SYDE 542 Case Study - Teambuildr.jpg"; 
+import fitspaceImage from "./Case Study - Teambuildr.png"; 
 import hotelCancellationImage from "./hotelCancellationImage.png";
-import volunteerImage from "./MSE 401 Group 6 EOT Design Review.png";
+import volunteerImage from "./STEMSelect - Optimizing Volunteer Placements.png";
 // --- END: NEW IMAGE IMPORTS ---
 
 export function Projects() {
@@ -49,7 +49,7 @@ export function Projects() {
         "Created a data-driven system to streamline volunteer selection and scheduling for UW Engineering Outreach, automating assessment of 100+ applicants with a custom ranking algorithm and optimization model, reducing manual effort and improving transparency.",
       image: volunteerImage,
       tags: ["Python", "Optimization", "Project Management", "Collaborative Problem Solving"],
-      github: "https://drive.google.com/file/d/1X1sO1Hk2PV-IbMKwD3CJn6ujGXzMZoA8/view?usp=sharing",
+      github: "https://docs.google.com/presentation/d/1_tWIYh0K308rWryXVFpMX2p9jFtoYeCgZfkp7Rxdurw/edit?usp=sharing",
       demo: "https://github.com/kpercyro/CapstoneProject",
       accentColor: "green",
       overlayColor: "bg-green-900",
