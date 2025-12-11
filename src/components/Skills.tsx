@@ -15,7 +15,7 @@ export function Skills() {
     {
       icon: BarChart3,
       title: "Data Science & Business Analytics",
-      skills: ["Excel", "Power BI", "Machine Learning", "Statistical Analysis", "Predictive Modeling"],
+      skills: ["Excel", "Power BI", , "Forecasting", "Machine Learning", "Statistical Analysis"],
       gradient: "from-pink-50 to-pink-100",
       iconBg: "bg-pink-600",
       borderColor: "border-pink-200 hover:border-pink-400",
@@ -42,7 +42,7 @@ export function Skills() {
     {
       icon: Layers,
       title: "UX/UI Design & Prototyping",
-      skills: ["Figma", "Miro", "Usability Testing", "Wireframing", "Prototyping", "Heuristic Evaluation"],
+      skills: ["Figma", "Miro", "Usability Testing", "Prototyping", "Heuristic Evaluation"],
       gradient: "from-blue-50 to-pink-50",
       iconBg: "bg-gradient-to-r from-blue-600 to-pink-600",
       borderColor: "border-blue-200 hover:border-pink-400",
