@@ -16,9 +16,9 @@ export function Projects() {
     {
       title: "Design Case Study - Teambuildr",
       description:
-        "Conducted a UX analysis of the Teambuildr platform, identifying key design issues and proposing actionable improvements.",
+        "Conducted a UX analysis of the Teambuildr platform, identifying key design issues and proposing actionable improvements in navigation and information architecture.",
       image: fitspaceImage,
-      tags: ["Fimga", "UX Design", "Prototyping", "User Interviews"],
+      tags: ["Fimga", "UX Design", "Prototyping", "User Interviews", "Task Analysis"],
       presentationLink: "https://docs.google.com/presentation/d/1skJ5v9vwByPE-KhCb3iXqOHWM3H93n5QfEsfgfRUinw/edit?usp=sharing",
       figmaPrototype: "https://www.figma.com/design/o8YK810wCFNXDYlsYLxfAN/SYDE-542-Teambuildr-Case-Study?node-id=0-1&t=jFoHs4UrGs26IHkb-1",
       github: "#",
