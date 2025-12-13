@@ -131,7 +131,7 @@ export function Projects() {
                         >
                           <a href={project.figmaPrototype} target="_blank" rel="noopener noreferrer">
                             <Figma className="h-4 w-4 mr-2" />
-                            Prototype
+                            Prototypes
                           </a>
                         </Button>
                       </>
