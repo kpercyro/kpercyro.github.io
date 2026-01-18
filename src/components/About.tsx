@@ -63,7 +63,7 @@ const accentStyles: Record<string, string> = {
   orange: "border-orange-400 bg-orange-100 text-orange-600",
 };
 
-export function JourneyMap() {
+export function About() {
   const [activeStep, setActiveStep] = useState<number | null>(null);
 
   return (
