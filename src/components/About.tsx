@@ -7,7 +7,7 @@ export function About() {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "Management Engineering combines engineering design principles with data analytics and software development to optimize processes. ",
+      description: "I'm in my final year of Management Egnineering! Management Engineering combines engineering design principles with data analytics and software development to optimize processes. ",
       color: "blue",
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600",
@@ -16,8 +16,8 @@ export function About() {
 
     {
       icon: TrendingUp,
-      title: "Teaching",
-      description: "I was a TA for MSE 100: Management Engineering Concepts and MSE 121: Introduction to Computer Programming",
+      title: "UX Experience",
+      description: "I've taken HCI, UX and Analytics and Interface Design courses to build a strong foundation in user-centered design. I also taught Figma to first-year engineering students!",
       color: "pink",
       bgColor: "bg-pink-100",
       iconColor: "text-pink-600",
@@ -27,7 +27,7 @@ export function About() {
     {
       icon: Lightbulb,
       title: "Research",
-      description: "I'm going to explore student persistance in AI through a URA next term",
+      description: "I am currently a research assistant at the University of Waterloo under Dr. Sharon Ferguson. I am continuing her research on Student Persistence to inform a classroom intervention intended to support diverse students develop career-fit confidence in the field of ML/AI.",
       color: "yellow",
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600",
@@ -37,7 +37,7 @@ export function About() {
     {
       icon: Target,
       title: "Interests",
-      description: "UI/UX, Design, Product Management, Data Analysis, Automation, AI/ML",
+      description: "My interest in design came mostly from my classes but looking back, I've been prototyping since I was 10. My parents wouldn't get me an iPod so I made one out of cardboard, with screens to play different popular games at the time.",
       color: "green",
       bgColor: "bg-green-100",
       iconColor: "text-green-600",

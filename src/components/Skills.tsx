@@ -15,7 +15,7 @@ export function Skills() {
     {
       icon: BarChart3,
       title: "Data Science & Business Analytics",
-      skills: ["Excel", "Power BI", , "Forecasting", "Machine Learning", "Statistical Analysis"],
+      skills: ["Excel", "Power BI", , "Forecasting", "ML/AI", "Statistical Analysis"],
       gradient: "from-pink-50 to-pink-100",
       iconBg: "bg-pink-600",
       borderColor: "border-pink-200 hover:border-pink-400",
