@@ -146,7 +146,10 @@ export function Projects() {
                         >
                           <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <FileText className="h-4 w-4 mr-2" />
-                            {project.title === "Hotel Cancellation Prediction IDSS" ? "Presentation" : "Report"}
+                            {project.title === "Hotel Cancellation Prediction IDSS" ||
+                              project.title === "Volunteer Selection and Scheduling Tool"
+                                ? "Presentation"
+                                : "Report"}
                           </a>
                         </Button>
 
